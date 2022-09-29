@@ -1,0 +1,1 @@
+export { JournalParameters } from "./JournalParameters";

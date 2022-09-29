@@ -1,0 +1,132 @@
+.name{
+  text-overflow: ellipsis;
+  cursor: pointer;
+  word-break: break-word;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: 18px;
+  margin: 10px;
+}
+.name:hover{
+  overflow: visible; 
+  white-space: normal;
+  height:auto; /* just added this line */
+}
+
+
+.info, .error, .warning  {
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 auto;
+  box-shadow: 0 0 4px 0px black;
+}
+
+.info {
+  background-color: #082fee;
+}
+
+.warning {
+  background-color: rgb(207 229 34);
+}
+
+.error {
+  background-color: rgb(255, 0, 0);
+}
+
+.info_color {
+  color: #082fee;
+}
+.error_color {
+  color: rgb(255, 0, 0);
+}
+.warning_color {
+  color: rgb(252, 194, 2);
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  /* Remove default */
+  /* -webkit-appearance: none; */
+  /*Your new styles */
+  color: red;
+}
+
+.w120{
+  width: 120px;
+}
+
+.close-email {
+  align-self: center;
+  position: relative;
+  background: url(../ButtonsFilterTable/icon/close-email.png) no-repeat center
+    center;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+/* .close-email:hover {
+  transform: scale(1.04);
+  transition: ease-in 0.2s;
+  cursor: pointer;
+} */
+
+.open-email {
+  align-self: center;
+  position: relative;
+  background: url(../ButtonsFilterTable/icon/open-email.png) no-repeat center
+    center;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.message-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.message-box span {
+  position: absolute;
+  left: 11px;
+  top: 14px;
+  color: #17b4ff;
+}
+
+.open-email::before { 
+  content: '';
+  display: block;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAACoAAAAqAF59LPGAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAPNQTFRF////M8xmEK9wLrmAFKNmIrN3Ha50MLp6M7t6GKlzM7l9FKdxMrt8Mrl8KbR5F6hyH612FqdxMrp9MLl8F6pzGKhzFKdyMrp8Mrp8EaVwEqZxMrp8DaJvDKFuDaJvCqBuC6BuDKFuDKFvDaJvD6NwFqhyGKlzG6t0Hap4Lbd6L7d7Mbp8Mrp8NLt9NLt+Nbt+ScKKScKLSsKLTcONT8SOWceVWseVXciXXcmYbMaodsqukNq4m9vBpNzJq+PJr+TMseHRu+jUyOzcye3d1PHk3fLr4/bt5Pbu5/fw8fr28vv38/v39fv59vz5+v38/v//////8xfd9QAAAB90Uk5TAAUQFhkeLDBLX2pxf4CPk5WXsrW/v8rQ5uz5+vv8/b8p6lgAAADzSURBVCiRZdJrQ4IwFAbgERlIsxQtUKqjea+VWZZ2Vcs7afv/v6YBG2x4vvG8cDbOhlBUuolt17WxqSO5tJxHeHlYS9xwiFSOIdzyiFKexd9POUvCbzRH1bugW7BOTuHeePt1Twhm+1Qa9aaU0g/WTEfmntN5mxAT4QCe3geJ01do3WJkM3heU38U+xsANIvIZcGMPfpDyQEqYfAdwOZHcrgKWz0sqCjuUI4W7y9TDud8u/2V6lAQP/i4Y/4Z+/VRPJKX379J7FCShnjTSfziQB57tyG8eqwelEhq+fTRRslldv8ysKR+dqjcE359Tk4zHP4BVJVP82YizokAAAAASUVORK5CYII=) no-repeat center center;
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  left: 8px;
+  top: 23px;
+  position: absolute;
+}
+
+.checked {
+  background: url(../ButtonsFilterTable/icon/checked.png) no-repeat center
+    center;
+  background-size: contain;
+  width: 5px;
+  height: 5px;
+}
+
+
+.text-message{
+  font-weight: 400;
+  width: 75vw;
+}
+
+.bold {
+  font-weight: bold;
+}

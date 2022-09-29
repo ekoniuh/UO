@@ -1,0 +1,22 @@
+.normalization-btn {
+	color:	rgb(0, 0, 238);
+	text-decoration: underline;
+	background-color: transparent;
+	border:none;
+	text-align: center;
+	font: bold 20px Arial,sans-serif;
+	cursor: pointer;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.normalization-btn-wrapper{
+	display: flex;
+	flex-direction: column;
+}
+
+.normalization-item__title{
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+}

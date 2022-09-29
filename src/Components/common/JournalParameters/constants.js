@@ -1,0 +1,20 @@
+export const initialData = [
+  {
+    id: 0,
+    date: "",
+    tempWater: 0,
+    pperm: 0,
+    conductivityPerm: 0,
+    reserv2: 0,
+    p1: 0,
+    p2: 0,
+    p3: 0,
+    deltaP1: 0,
+    p4: 0,
+    reserv3: 0,
+    deltaP2: 0,
+    ratePerm: 0,
+    drain: 0,
+    circulation: 0,
+  },
+];

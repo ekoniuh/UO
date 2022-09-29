@@ -1,0 +1,1 @@
+export { SettingJournals } from "./SettingJournals";

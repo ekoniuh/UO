@@ -1,0 +1,46 @@
+.select-date > input {
+  border: 2px solid red;
+}
+.select-date::after {
+  content: "Выберите дату";
+  color: red;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 7px;
+}
+
+.date-wash-wrap {
+  position: relative;
+  border-bottom: 1px solid red;
+}
+
+input::placeholder {
+  /* color: #666; */
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* .header::after {
+  content: 'Выберите дату';
+  color: red;
+  position: absolute;
+} */
+.table-wash td,
+.table-wash th {
+  width: 20%;
+}
+/* 
+.table-wash i {
+  cursor: "pointer";
+  font-size: "16px";
+}
+
+.fa .fa-save {
+  color: "green";
+}
+
+.fa-trash {
+  color: "blue";
+} */

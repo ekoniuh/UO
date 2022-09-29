@@ -1,0 +1,1 @@
+export { MembraneWashed } from "./MembraneWashed";

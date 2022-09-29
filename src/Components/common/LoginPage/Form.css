@@ -1,0 +1,105 @@
+.form {
+  width: 500px;
+  height: 550px;
+  background: #fffcfc;
+  box-shadow: 0px 0px 10px 9px rgb(242 145 145 / 24%);
+  border-radius: 16px;
+  margin: 90px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-container {
+  height: 80%;
+  text-align: center;
+}
+
+.form-container img {
+  border-radius: 20px;
+}
+
+.form-group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+.form-group label {
+  font-size: 12px;
+  color: rgb(0 0 0 / 41%);
+  text-align: left;
+}
+
+.form-group input {
+  border: none;
+  border-bottom: 1px solid #c6b4b4;
+}
+
+.form-group input::placeholder {
+  color: black;
+}
+
+input:focus {
+  outline: none;
+}
+
+.form-container input[type="submit"] {
+  margin-top: 50px;
+  width: 240px;
+  height: 50px;
+  border-style: none;
+  background: rgba(35, 107, 130, 0.63);
+
+  border-radius: 35px;
+
+  font-size: 20px;
+}
+
+.form-container .btn-active {
+  cursor: pointer;
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.8);
+  color: white;
+}
+.form-container__email label,
+.form-container__password label {
+  position: relative;
+}
+
+.form-container__password label::before,
+.form-container__email label::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 22px;
+  height: 22px;
+  top: 14px;
+  left: -27px;
+  /* background: url(../../assets/images/favicon/key.png) no-repeat center center; */
+}
+
+.form-container__password label::before {
+  background: url(../../../assets/images/favicon/key.png) no-repeat center center;
+  background-size: contain;
+}
+
+.form-container__email label::before {
+  background: url(../../../assets/images/favicon/email.png) no-repeat center center;
+  background-size: contain;
+}
+
+.form-container__email.has-error::after {
+  content: "Введён не валидный логин";
+  position: absolute;
+  bottom: -25px;
+  color: rgba(255, 0, 0, 0.7);
+}
+
+.form-container__password.has-error::after {
+  content: "Введите не менее 6 символов";
+  position: absolute;
+  bottom: -25px;
+  color: rgba(255, 0, 0, 0.7);
+}

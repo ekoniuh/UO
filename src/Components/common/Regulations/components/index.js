@@ -1,0 +1,1 @@
+export { TableMembrane } from "./TableMembrane";

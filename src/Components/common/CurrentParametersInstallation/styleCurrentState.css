@@ -1,0 +1,19 @@
+.current-state-wrap {
+  position: relative;
+  margin-top: 30px;
+  padding: 30px 20px;
+}
+
+/* .animation-load::before {
+  content: "";
+  display: block;
+  border: 6px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 6px solid #3498db;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 45px;
+  top: -20px;
+  animation: spin 1s linear infinite;
+} */

@@ -1,0 +1,5 @@
+.current-start-state::placeholder,
+.current-zero-state::placeholder {
+  color: black;
+	font-size: 12px;
+}

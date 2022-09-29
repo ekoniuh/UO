@@ -1,0 +1,101 @@
+#chart {
+  background: rgb(162 186 188 / 87%);
+}
+
+.select-period {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: monospace;
+  text-transform: uppercase;
+  background: #fff;
+  border-radius: 2px;
+  width: 170px;
+  margin: 2%;
+}
+
+.select-middle {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.select-middle select {
+  height: 30px;
+  margin-left: 10px;
+}
+/* 
+.date-picker-wrap{
+  margin-left: 40px;
+} */
+
+.normalization-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart-page-wrapper {
+  max-width: 90%;
+  margin: 50px auto;
+  padding-bottom: 50px;
+}
+
+.header-middle {
+  display: flex;
+  margin: 40px 0px 20px 0px;
+}
+
+.header-wrapper {
+  font-size: 20px;
+  color: rgb(216, 228, 232);
+  display: flex;
+  margin: 0 auto;
+  gap: 20px;
+  max-width: 800px;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.select-middle h2 {
+  font-size: 20px;
+}
+
+.select-period:hover {
+  background-color: #3d3d3d;
+  color: #fff;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.select-wrap {
+  color: #d8e4e8;
+  display: flex;
+
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+.select-wrap input,
+.select-wrap label {
+  color: rgb(216, 228, 232);
+}
+
+.period-date {
+  margin-left: 30px;
+}
+
+.table-chart-wrapper .table-data {
+  /* position: sticky;
+  top: 0; */
+  margin-bottom: 20px;
+}
+
+.table-chart-wrapper .table-data th {
+  padding: 3px;
+}
+
+.chart-page-wrapper .table-data {
+  width: calc(100% - 20px);
+}
